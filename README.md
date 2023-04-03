@@ -17,7 +17,7 @@ Front-End: [artigos-esportivos](https://github.com/robson325i/artigos-esportivos
 
 - Crie um `database` no postgreSQL executando a query `CREATE DATABASE "artigosesportivos OWNER artigosesportivos`.
 
-- Clone o projeto com `git clone https://github.com/robson325i/artigos-esportivos.git`.
+- Clone o projeto com `git clone https://github.com/robson325i/artigos-esportivos-backend.git`.
 
 - Entre no diretório do projeto com cd `artigos-esportivos-backend`.
 
