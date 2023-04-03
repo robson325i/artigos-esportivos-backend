@@ -1,0 +1,34 @@
+                     List of relations
+ Schema |         Name          | Type  |       Owner       
+--------+-----------------------+-------+-------------------
+ public | Orders                | table | artigosesportivos
+ public | Products              | table | artigosesportivos
+ public | Users                 | table | artigosesportivos
+ public | __EFMigrationsHistory | table | artigosesportivos
+
+                           Table "public.Users"
+  Column  |  Type   | Collation | Nullable |           Default
+----------+---------+-----------+----------+------------------------------
+ UserId   | integer |           | not null | generated always as identity
+ Email    | text    |           | not null |
+ Password | text    |           | not null |
+ Name     | text    |           | not null |
+
+                           Table "public.Products"
+   Column    |  Type   | Collation | Nullable |           Default
+-------------+---------+-----------+----------+------------------------------
+ ProductId   | integer |           | not null | generated always as identity
+ Name        | text    |           | not null |
+ Value       | numeric |           | not null |
+ LastValue   | numeric |           | not null |
+ Description | text    |           | not null |
+ Stock       | integer |           | not null |
+ Sales       | integer |           | not null |
+ OrderId     | integer |           |          |
+
+                                  Table "public.Orders"
+ Column  |           Type           | Collation | Nullable |           Default
+---------+--------------------------+-----------+----------+------------------------------
+ OrderId | integer                  |           | not null | generated always as identity
+ UserId  | integer                  |           | not null |
+ Date    | timestamp with time zone |           | not null | now()
