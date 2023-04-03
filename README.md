@@ -31,4 +31,4 @@ Front-End: [artigos-esportivos](https://github.com/robson325i/artigos-esportivos
 
 ### Documentação da API automatizada
 
-A documentação da API foi automatizada com _Swagger_, para utilizar, acesse `https:localhost:<porta>/swagger`
+A documentação da API foi automatizada com _Swagger_, para utilizar, acesse `https://localhost:<porta>/swagger`
